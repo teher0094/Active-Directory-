@@ -1,44 +1,56 @@
-# Active-Directory-
-Practical Implementation of Active Directory 
+# Active Directory User and Access Management Project
 
 ## Project Overview
-This project demonstrates my skills in setting up and managing an Active Directory (AD) environment using Microsoft Azure. I deployed 2 virtual machines (VMs), 1 VM for the domain controller (DC), the other as a client then I configured user groups and organizational units (OUs) for different departments.
+This project showcases my ability to manage an Active Directory (AD) environment, specifically focusing on creating and managing users, organizational units (OUs), and groups, and configuring shared folder access permissions.
 
-### Key Features
-- **VM Deployment**: Utilized Microsoft Azure to deploy VMs.
-- **AD Environment**: Established a DC and client machine within AD.
-- **User and Group Management**: Created admin and regular domain users, and organized them into OUs like HR, Sales, and IT.
-- **Access Control**: Implemented folder sharing with access permissions based on user group memberships.
+## Objectives
+- **User Creation:** Establish a variety of user accounts in AD.
+- **OU Structuring:** Organize users into appropriate Organizational Units.
+- **Group Management:** Create and manage groups for different access levels.
+- **Shared Folder Access:** Set up shared folders and configure access permissions based on group membership.
 
 ## Technologies Used
-- Microsoft Azure
+- Microsoft Active Directory
 - Windows Server
-- Active Directory
 
-## Project Setup
+## User Creation and Management
 
-### Step 1: Deploying VMs on Azure
-- Details about selecting the VM, configuring settings, etc.
+### Creating Users
+- Steps taken to create new user accounts in AD.
+- Include any specific attributes or settings configured for these users.
 
-### Step 2: Establishing the Active Directory
-- Instructions on setting up the DC, adding a client machine, etc.
+### Managing User Properties
+- Explain how you managed user properties like passwords, profile paths, and login scripts.
 
-### Step 3: User and Group Management
-- Guide on creating admin and regular users, and their assignment to respective OUs.
+## Organizational Units (OUs) Structuring
 
-### Step 4: Setting Up Access Controls
-- Explanation of how folder sharing was managed and access given based on OU membership.
+- Outline the strategy for creating OUs.
+- Discuss the rationale behind the organization of users into these OUs.
 
-## Challenges and Learning
+## Group Management
 
-- Discuss any challenges you faced during the project and how you resolved them.
-- Reflect on the learning outcomes from this project.
+- Detail the process of creating groups in AD.
+- Explain how you managed group memberships and their significance.
 
-## Screenshots
+## Shared Folder Access Configuration
 
-![Screenshot 1 Description](URL_to_screenshot_1)
-![Screenshot 2 Description](URL_to_screenshot_2)
+### Creating Shared Folders
+- Steps to create shared folders on the network.
 
-## Future Improvements
+### Configuring Access Permissions
+- Explain how you assigned folder permissions.
+- Describe the process of linking folder access to specific OUs or groups.
 
-- Potential enhancements or additional features you might consider in the future.
+## Challenges and Solutions
+
+- Discuss any challenges faced during the project.
+- Explain how you resolved these challenges.
+
+## Conclusion
+
+- Summarize the key outcomes of the project.
+- Reflect on what this experience has taught you about managing an AD environment.
+
+---
+
+Feel free to expand each section with more details specific to your project. Including screenshots or diagrams can also enhance the documentation. This template helps in presenting your project in a clear, structured, and detailed manner.
