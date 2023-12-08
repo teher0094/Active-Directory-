@@ -51,6 +51,4 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Summarize the key outcomes of the project.
 - Reflect on what this experience has taught you about managing an AD environment.
 
----
 
-Feel free to expand each section with more details specific to your project. Including screenshots or diagrams can also enhance the documentation. This template helps in presenting your project in a clear, structured, and detailed manner.
