@@ -11,7 +11,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 ## Technologies Used
 - Microsoft Active Directory
-- Windows Server
+- Microsoft Azure
 
 ## User Creation and Management
 
