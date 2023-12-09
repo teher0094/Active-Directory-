@@ -24,8 +24,10 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - When creating OUs for the first time, I find that a high level approach is best because Active Directory is based on hierarchical structure.
 - Starting from the company's name then moving onto the different departments in the company then the groups of each department and finally the users and resources in each group.
 - In my project, I created a small company named Americorp which has 12 employees.
-- Americorp has 4 common departments, Admins, Human Resources, Sales and IT.
-- I've created OUs based on each of those departments. 
+- Americorp has 4 departments: Admins, Human Resources, Sales and IT.
+- I've created OUs based on each of those departments and a related group within each OU. 
+
+![image](https://github.com/teher0094/Active-Directory-/assets/153027290/9e3d0f12-1f26-40ea-955f-9ed1672bc478)
 
   
 ## User Creation and Management
