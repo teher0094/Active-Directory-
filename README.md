@@ -12,25 +12,35 @@ This project showcases my ability to manage an Active Directory (AD) environment
 ## Technologies Used
 - Microsoft Active Directory
 - Microsoft Azure
+- Windows 10 Pro
 
+## Organizational Units (OUs) and Groups Structuring
+
+- Outline the strategy for creating OUs.
+- Discuss the rationale behind the organization of users into these OUs.
+- Detail the process of creating groups in AD.
+- Explain how you managed group memberships and their significance.
+
+- When creating OUs for the first time, I find that a high level approach is best because Active Directory is based on hierarchical structure.
+- Starting from the company's name then moving onto the different departments in the company then the groups of each department and finally the users and resources in each group.
+- In my project, I created a small company named Americorp which has 12 employees.
+- Americorp has 4 common departments, Admins, Human Resources, Sales and IT.
+- I've created OUs based on each of those departments. 
+
+  
 ## User Creation and Management
 
 ### Creating Users
 - Steps taken to create new user accounts in AD.
 - Include any specific attributes or settings configured for these users.
+  
+- The Active Directory Users and Computers is a great tool to used when it comes to managing the objects within an AD environment.
+- 
+- 
 
 ### Managing User Properties
 - Explain how you managed user properties like passwords, profile paths, and login scripts.
 
-## Organizational Units (OUs) Structuring
-
-- Outline the strategy for creating OUs.
-- Discuss the rationale behind the organization of users into these OUs.
-
-## Group Management
-
-- Detail the process of creating groups in AD.
-- Explain how you managed group memberships and their significance.
 
 ## Shared Folder Access Configuration
 
