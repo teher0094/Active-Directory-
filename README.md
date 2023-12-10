@@ -16,12 +16,6 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Group Policy Management
 
 ## Organizational Units (OUs) and Groups Structuring
-
-- Outline the strategy for creating OUs.
-- Discuss the rationale behind the organization of users into these OUs.
-- Detail the process of creating groups in AD.
-- Explain how you managed group memberships and their significance.
-
 - When creating OUs for the first time, I find that a high level approach is best because Active Directory is based on hierarchical structure.
 - Starting from the company's name then moving onto the different departments in the company then the groups of each department and finally the users and resources in each group.
 - In my project, I created a small company named Americorp which has 11 employees.
@@ -31,22 +25,23 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/9e3d0f12-1f26-40ea-955f-9ed1672bc478)
 
-- I created 2 of the users to be domain admins and the other 9 users were divided into groups of three.
-- Each of those groups were assigned to the different OU Groups.
-- In this project, the group assignments were arbitrary but in the real world, I would have assign the groups based on their hired position.  
 
-  
-## User Creation and Management
-
-### Creating Users
+### Creating Users and Managing User Properties
 - Steps taken to create new user accounts in AD.
 - Include any specific attributes or settings configured for these users.
   
 - The Active Directory Users and Computers is a great tool to used when it comes to managing the objects within an AD environment.
-- 
-- 
+- I used ADUC to create 2 Domain Admins and the other 9 were Domain Users.
+- The Domain Users were divided into groups of three.
+- Each of those user were assigned to the different OU Groups.
+- In this project, the user assignments were arbitrary but in the real world, I would have assign the users based on their hired positions.
 
-### Managing User Properties
+![image](https://github.com/teher0094/Active-Directory-/assets/153027290/4dd2f0b6-c80d-4bba-a94a-1b467ebc12f1)
+
+- In the picture above is an example of the IT OU, the group inside called Helpdesk and the members of that group.
+- The users and groups were created using the "Create new user" and "Create new group" buttons. 
+
+### 
 - Explain how you managed user properties like passwords, profile paths, and login scripts.
 
 
