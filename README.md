@@ -14,6 +14,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Microsoft Azure
 - Windows 10 Pro
 - Group Policy Management
+- Group Policy Editor
 
 ## Organizational Units (OUs) and Groups Structuring
 - When creating OUs for the first time, I find that a high level approach is best because Active Directory is based on hierarchical structure.
@@ -37,12 +38,14 @@ This project showcases my ability to manage an Active Directory (AD) environment
 ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/4dd2f0b6-c80d-4bba-a94a-1b467ebc12f1)
 
 - In the picture above is an example of the IT OU, the group inside called Helpdesk and the members of that group.
-- The users and groups were created using the "Create new user" and "Create new group" buttons. 
-- User accounts were created with a temporary password and the option for the users to change their password at the next log in was left checked. 
+- The users and groups were created using the "Create new user" and "Create new group" buttons.
+- By adding users to a specific group, any future policies that applied to that group would apply to the user as well, making user permissions simplier to manage.  
+- User accounts were created with a temporary password and the option for the users to change their password at the next log in was left checked.
+- This is done so that the users will have unique passwords that the user creator would not know.
 
 ## Shared Folder Access Configuration
 
-### Creating Shared Folders
+### Creating Shared Folders and Mapping Share Drives
 - My Active Directory consists of a Domain Controller and a Client.
 - I created the Share Folder on the "D:" of the Client VM, this way it will reduce the security concerns of my network and allow my DC to perform critical domain services only.
 - The share folder is labled, "Share Drive", with 4 sub folders inside.
@@ -53,13 +56,28 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 
 - The All Access is a share folder that any domain user can access with read and write permissions.
-- The IT Only, HR Only and Sales Only were made into mapped network share drives for their respective departments.
+- I was able to map the IT Only, HR Only and Sales Only folders as network share drives for their respective departments.
+- Using Group Policy Management and Group Policy Editor, I created new GPOs linked to each OU so that the shared drives can be mapped to the correct groups and users in my AD.
+
+![image](https://github.com/teher0094/Active-Directory-/assets/153027290/44051984-2044-416b-8d28-9e621fcde443)
+
+
+![image](https://github.com/teher0094/Active-Directory-/assets/153027290/7d3e5f43-d272-4f9c-85f1-45ebde97e77d)
+
 - Only members of their respective groups can access the corresponding share drive.
-- 
+- The user, "James Kirk" is apart of the Hiring Team group, this is why they're able to see the HR Only Share drive and access it's contents.
+- When James Kirk tries to access another folder such as the "IT Only" folder through the "Share Drive", they get an error message stating they do not have the permissions to do so.
+
+![image](https://github.com/teher0094/Active-Directory-/assets/153027290/16b1c113-8759-4adb-85be-dc7ca6f82fd5)
+
 
 ### Configuring Access Permissions
 - Explain how you assigned folder permissions.
 - Describe the process of linking folder access to specific OUs or groups.
+
+- The Share Drive was create with access permissions for all domain users.
+- All subfolders inherited these permissions but because I wanted certain share folders to become share drives for specific groups, I had to disinherit these permissions.
+- I was able to do this by going into the "Properties" of the Share Drive and removing the "Domain Users" from the access lists and then adding the appropriate user group.
 
 ## Challenges and Solutions
 
