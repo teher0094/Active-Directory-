@@ -25,6 +25,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/9e3d0f12-1f26-40ea-955f-9ed1672bc478)
 
+## User Creation
 
 ### Creating Users and Managing User Properties  
 - The Active Directory Users and Computers is a great tool to used when it comes to managing the objects within an AD environment.
@@ -37,7 +38,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 - In the picture above is an example of the IT OU, the group inside called Helpdesk and the members of that group.
 - The users and groups were created using the "Create new user" and "Create new group" buttons. 
-- User accounts were created with a temporary password and the option for the users to change password at their next log in was left checked. 
+- User accounts were created with a temporary password and the option for the users to change their password at the next log in was left checked. 
 
 ## Shared Folder Access Configuration
 
