@@ -43,7 +43,19 @@ This project showcases my ability to manage an Active Directory (AD) environment
 ## Shared Folder Access Configuration
 
 ### Creating Shared Folders
-- Steps to create shared folders on the network.
+- My Active Directory consists of a Domain Controller and a Client.
+- I created the Share Folder on the "D:" of the Client VM, this way it will reduce the security concerns of my network and allow my DC to perform critical domain services only.
+- The share folder is labled, "Share Drive", with 4 sub folders inside.
+- Each of the folders will have a different level of access.
+- The 4 subfolders are: All Access, IT Only, HR Only and Sales Only.
+
+ ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/f29a2222-3059-4768-aefe-0160d4c5e102)
+
+
+- The All Access is a share folder that any domain user can access with read and write permissions.
+- The IT Only, HR Only and Sales Only were made into mapped network share drives for their respective departments.
+- Only members of their respective groups can access the corresponding share drive.
+- 
 
 ### Configuring Access Permissions
 - Explain how you assigned folder permissions.
