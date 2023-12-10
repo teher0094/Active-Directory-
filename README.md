@@ -72,21 +72,22 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 
 ### Configuring Access Permissions
-- Explain how you assigned folder permissions.
-- Describe the process of linking folder access to specific OUs or groups.
-
 - The Share Drive was create with access permissions for all domain users.
 - All subfolders inherited these permissions but because I wanted certain share folders to become share drives for specific groups, I had to disinherit these permissions.
-- I was able to do this by going into the "Properties" of the Share Drive and removing the "Domain Users" from the access lists and then adding the appropriate user group.
+- I did this by going into the "Security" tab in the "Properties" of the Share Drive and removing the "Domain Users" from the access lists and then adding the appropriate group.
 
 ## Challenges and Solutions
-
-- Discuss any challenges faced during the project.
-- Explain how you resolved these challenges.
+- Because most of these processes and procedures are new to me, it was challenging setting up the AD environment and working within it.
+- It seems each of these different AD tools holds a depth of services and can be used in many different circumstances.
+- There's certainly much more for me to learn but I was able to research and find resolutions to any road blocks I've encountered during this project.
+- Watching tutorials of IT professionals was a great aid in helping me to complete this. 
 
 ## Conclusion
-
 - Summarize the key outcomes of the project.
 - Reflect on what this experience has taught you about managing an AD environment.
+
+- Although I am Comptia A+ certified, this project helped me put into practice what I've learned.
+- There was alot of theory and abstract learning needed to pass the Comptia A+ exams but doing these projects gives me tangible experience that I can use during employment.
+- Managing my own AD environment has helped me to better understand the security and structure of an organization.  
 
 
