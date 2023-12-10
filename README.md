@@ -13,6 +13,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Microsoft Active Directory
 - Microsoft Azure
 - Windows 10 Pro
+- Group Policy Management
 
 ## Organizational Units (OUs) and Groups Structuring
 
@@ -23,11 +24,16 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 - When creating OUs for the first time, I find that a high level approach is best because Active Directory is based on hierarchical structure.
 - Starting from the company's name then moving onto the different departments in the company then the groups of each department and finally the users and resources in each group.
-- In my project, I created a small company named Americorp which has 12 employees.
+- In my project, I created a small company named Americorp which has 11 employees.
 - Americorp has 4 departments: Admins, Human Resources, Sales and IT.
-- I've created OUs based on each of those departments and a related group within each OU. 
+- I've created OUs based on each of those departments and a related group within each OU.
+- For Human Resources, I created the group called Hiring Team, for the Sales OU, Sales Group, and IT OU, Helpdesk.
 
 ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/9e3d0f12-1f26-40ea-955f-9ed1672bc478)
+
+- I created 2 of the users to be domain admins and the other 9 users were divided into groups of three.
+- Each of those groups were assigned to the different OU Groups.
+- In this project, the group assignments were arbitrary but in the real world, I would have assign the groups based on their hired position.  
 
   
 ## User Creation and Management
