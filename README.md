@@ -83,9 +83,6 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Watching tutorials of IT professionals was a great aid in helping me to complete this. 
 
 ## Conclusion
-- Summarize the key outcomes of the project.
-- Reflect on what this experience has taught you about managing an AD environment.
-
 - Although I am Comptia A+ certified, this project helped me put into practice what I've learned.
 - There was alot of theory and abstract learning needed to pass the Comptia A+ exams but doing these projects gives me tangible experience that I can use during employment.
 - Managing my own AD environment has helped me to better understand the security and structure of an organization.  
