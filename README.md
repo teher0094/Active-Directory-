@@ -26,10 +26,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/9e3d0f12-1f26-40ea-955f-9ed1672bc478)
 
 
-### Creating Users and Managing User Properties
-- Steps taken to create new user accounts in AD.
-- Include any specific attributes or settings configured for these users.
-  
+### Creating Users and Managing User Properties  
 - The Active Directory Users and Computers is a great tool to used when it comes to managing the objects within an AD environment.
 - I used ADUC to create 2 Domain Admins and the other 9 were Domain Users.
 - The Domain Users were divided into groups of three.
@@ -40,10 +37,7 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 - In the picture above is an example of the IT OU, the group inside called Helpdesk and the members of that group.
 - The users and groups were created using the "Create new user" and "Create new group" buttons. 
-
-### 
-- Explain how you managed user properties like passwords, profile paths, and login scripts.
-
+- User accounts were created with a temporary password and the option for the users to change password at their next log in was left checked. 
 
 ## Shared Folder Access Configuration
 
