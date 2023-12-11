@@ -73,8 +73,8 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Additionally, watching tutorials from seasoned IT professionals proved immensely beneficial. Not only did they offer step-by-step guidance, but they also showcased best practices in real-world contexts. Applying these learnings, I was able to effectively set up group policies and fine-tune access controls in my project.
 
 ## Conclusion
-- Although I am Comptia A+ certified, this project helped me put into practice what I've learned.
-- There was alot of theory and abstract learning needed to pass the Comptia A+ exams but doing these projects gives me tangible experience that I can use during employment.
-- Managing my own AD environment has helped me to better understand the security and structure of an organization.  
-
+- This project has been a pivotal step in bridging the gap between my CompTIA A+ certification and practical IT skills. While the certification equipped me with essential theory and knowledge, engaging in this hands-on AD project has given me tangible experience, particularly in managing shared resources and understanding the structural dynamics of an organization’s network.
+- Through careful planning and implementation, I have deepened my grasp of strategies that enhance network security and the thoughtful allocation of shared resources. This experience has laid a solid foundation for me to explore more nuanced aspects of Active Directory, such as detailed permission settings and the use of scripts for automation.
+- Managing my own AD environment proved to be an invaluable practical exercise. Focusing first on the foundational aspects of AD, this project has prepared me to delve into its more complex features.
+- Despite its challenges, this project has been incredibly enriching. It has reinforced the importance of continuous learning in the IT field and has proven to be an excellent stepping stone in my professional journey, deepening my competencies and fueling my enthusiasm for future endeavors in network administration.
 
