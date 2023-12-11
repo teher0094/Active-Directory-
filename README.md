@@ -63,15 +63,14 @@ This project showcases my ability to manage an Active Directory (AD) environment
 
 
 ### Configuring Access Permissions
-- The Share Drive was create with access permissions for all domain users.
-- All subfolders inherited these permissions but because I wanted certain share folders to become share drives for specific groups, I had to disinherit these permissions.
-- I did this by going into the "Security" tab in the "Properties" of the Share Drive and removing the "Domain Users" from the access lists and then adding the appropriate group.
+- In the configuration of the Share Drive, I initially set it up with general access permissions for all domain users, allowing every user in the domain read and write capabilities. However, to tailor the access for specific departments, I modified these permissions for the subfolders.
+- Each subfolder was initially inheriting these broad permissions from the Share Drive. To create a more controlled access environment, I had to remove this inheritance. I achieved this by navigating to the 'Security' tab in the 'Properties' of each subfolder. Here, I removed the 'Domain Users' group from the access list, effectively revoking their inherited permissions.
+- Afterward, I added the appropriate departmental groups to each subfolder. For example, the 'HR Only' folder was assigned exclusively to the 'HR' group. This action ensured that only the members of each specific group had access to their relevant folders, aligning access rights with departmental needs and enhancing overall data security.
 
 ## Challenges and Solutions
-- Because most of these processes and procedures are new to me, it was challenging setting up the AD environment and working within it.
-- It seems each of these different AD tools holds a depth of services and can be used in many different circumstances.
-- There's certainly much more for me to learn but I was able to research and find resolutions to any road blocks I've encountered during this project.
-- Watching tutorials of IT professionals was a great aid in helping me to complete this. 
+- Setting up and managing an Active Directory environment was a significant learning curve for me, given that many of these processes were new territory. Each tool in AD, I realized, has its own depth and versatility, applicable in a wide range of scenarios.
+- One particular challenge I faced was understanding the intricacies of Group Policy Management. It initially seemed daunting with its multitude of settings and options. To navigate through this, I actively sought out resources, diving into technical forums, and Microsoft's own documentation. These platforms provided valuable insights and practical tips, helping me demystify the complex aspects of AD.
+- Additionally, watching tutorials from seasoned IT professionals proved immensely beneficial. Not only did they offer step-by-step guidance, but they also showcased best practices in real-world contexts. Applying these learnings, I was able to effectively set up group policies and fine-tune access controls in my project.
 
 ## Conclusion
 - Although I am Comptia A+ certified, this project helped me put into practice what I've learned.
