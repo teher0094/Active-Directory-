@@ -1,7 +1,7 @@
-# Active Directory User and Access Management Project
+# Strategic Active Directory Deployment
 
 ## Project Overview
-This project showcases my ability to manage an Active Directory (AD) environment, specifically focusing on creating and managing users, organizational units (OUs), and groups, and configuring shared folder access permissions.
+In my Active Directory project for a hypothetical company, Americorp, I applied my CompTIA A+ knowledge to set up and manage users, groups, and shared resources. This practical exercise deepened my understanding of network security and structure, highlighting the importance of thoughtful planning and strategic implementations. Overcoming challenges along the way, I gained valuable insights into AD management, laying a foundation for future exploration of advanced functionalities.
 
 ## Objectives
 - **User Creation:** Establish a variety of user accounts in AD.
