@@ -17,12 +17,12 @@ This project showcases my ability to manage an Active Directory (AD) environment
 - Group Policy Editor
 
 ## Organizational Units (OUs) and Groups Structuring
-- When creating OUs for the first time, I find that a high level approach is best because Active Directory is based on hierarchical structure.
-- Starting from the company's name then moving onto the different departments in the company then the groups of each department and finally the users and resources in each group.
-- In my project, I created a small company named Americorp which has 11 employees.
-- Americorp has 4 departments: Admins, Human Resources, Sales and IT.
-- I've created OUs based on each of those departments and a related group within each OU.
-- For Human Resources, I created the group called Hiring Team, for the Sales OU, Sales Group, and IT OU, Helpdesk.
+- In my Active Directory project, I created a structured environment for a hypothetical company named Americorp.
+- This conceptual project was designed to demonstrate my understanding of AD's hierarchical organization.
+- Americorp, envisioned as a small-scale enterprise with 11 employees, includes four key departments: Admins, Human Resources, Sales, and IT.
+- To mimic a realistic corporate structure in AD, I crafted OUs corresponding to each of these departments.
+- My approach was to create a clear and manageable framework, starting from the Americorp root OU and branching out into department-specific OUs.
+- Within each departmental OU, I established a representative group: 'Hiring Team' for Human Resources, 'Sales Group' for Sales, and 'Helpdesk' for IT.
 
 ![image](https://github.com/teher0094/Active-Directory-/assets/153027290/9e3d0f12-1f26-40ea-955f-9ed1672bc478)
 
